@@ -1,5 +1,7 @@
 # Azure Identity and Access Management (IAM) Project
 
+![Microsoft-Entra-image](https://github.com/user-attachments/assets/fca31516-0fa7-4d8b-a2e2-75dad49d4833)
+
 This document showcases key concepts and practical implementations of Azure IAM that demonstrate expertise in managing identities, access, ensuring compliance and security in the cloud.
 
 # 1. Role-Based Access Control (RBAC)
