@@ -6,6 +6,8 @@ This document showcases key concepts and practical implementations of Azure IAM 
 
 # 1. Role-Based Access Control (RBAC)
 
+![RBAC](https://github.com/user-attachments/assets/22e765e3-212d-4718-976a-f6f614945421)
+
 RBAC is a critical Azure IAM feature that enables precise management of access to resources. In this project, the following steps were performed to implement RBAC:
    * a. Identified roles for various teams (e.g., Admin, Developer, Read-only).
    * b. Assigned built-in roles like 'Owner', 'Contributor', and 'Reader' to users and groups.
@@ -61,6 +63,8 @@ This kind of structured access ensures security, accountability, and least privi
      Assign the custom role to a user or group.
 
 # 2. Conditional Access Policies
+
+![conditional-access-signal-decision-enforcement](https://github.com/user-attachments/assets/aff6c995-b934-4662-b841-0390c0736da9)
 
 Implemented Conditional Access policies to enforce access controls based on conditions like location, device, and risk level.
  * a. Configured policies to block access from untrusted locations.
@@ -133,6 +137,8 @@ Conditional Access enforces access policies based on conditions like device or l
 
 # 3. Identity Protection
 
+![identity-protection-overview](https://github.com/user-attachments/assets/52950c9b-ee31-468c-ba84-0acc84e2a2a0)
+
 Azure AD Identity Protection was utilized to detect and respond to identity-based threats.
  * a. Configured risk-based policies to automatically block risky sign-ins.
  * b. Monitored user risk and sign-in risk levels in Azure AD reports.
@@ -201,6 +207,8 @@ Identity Protection identifies and mitigates identity risks.
 
 
 # 4. Privileged Identity Management (PIM)
+
+![images (6)](https://github.com/user-attachments/assets/7dc57fe8-03b1-4795-8482-2c54c9651410)
 
 Privileged Identity Management was implemented to manage, monitor, and control access to sensitive roles.
  * a. Enabled just-in-time (JIT) access for privileged roles.
@@ -271,6 +279,8 @@ PIM manages privileged roles and minimizes standing admin access.
        Under Audit logs, review who activated roles and when.
 
 # 5. Integration with Azure Active Directory
+
+![integration-1](https://github.com/user-attachments/assets/125dcf1e-f6d9-49a9-9509-eb5112670e55)
 
 Azure AD integration was utilized for seamless identity management across applications.
  * a. Integrated on-premises Active Directory with Azure AD using Azure AD Connect.
