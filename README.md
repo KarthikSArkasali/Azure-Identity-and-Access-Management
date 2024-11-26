@@ -69,7 +69,8 @@ Implemented Conditional Access policies to enforce access controls based on cond
 
 A **real-time example** of Conditional Access Policies can be seen in the context of managing access to Microsoft 365 or Azure Active Directory applications.
 
-**Scenario: Secure Access for a Remote Workforce.**
+**Scenario: Secure Access for a Remote Workforce.** <br>
+
 **Context:**
     An organization has employees working both in-office and remotely. The IT team needs to secure access to corporate resources (e.g., email, SharePoint, Teams) while allowing flexibility for remote work.
 
@@ -140,6 +141,7 @@ Azure AD Identity Protection was utilized to detect and respond to identity-base
 A **real-time example** of Identity Protection can be seen in systems like **Microsoft Azure Active Directory (Azure AD)**, where advanced identity protection mechanisms secure user accounts against threats such as compromised credentials and suspicious activities.
 
 **Scenario: Protecting a Corporate Employee's Identity.** <br>
+
 **Context:**
   An organization uses Azure AD to manage employee access to cloud services like Microsoft 365, CRM tools, and HR platforms. Identity Protection ensures user accounts remain secure, even in the event of a 
   compromise attempt.
@@ -208,6 +210,7 @@ Privileged Identity Management was implemented to manage, monitor, and control a
 A **real-time example** of **Privileged Identity Management (PIM)** can be observed in Microsoft Azure Active Directory (Azure AD PIM), where organizations manage and secure access to privileged roles, such as administrators or resource owners, on a just-in-time basis.
 
 **Scenario: Securing Privileged Access in a Cloud Environment**
+
 **Context:**
 A medium-sized organization uses Azure for its cloud services. The IT team manages resources such as virtual machines, databases, and app services. To minimize security risks, they implement PIM to manage access to sensitive roles and resources.
 
@@ -277,10 +280,11 @@ Azure AD integration was utilized for seamless identity management across applic
 A **real-time example** of integration with **Azure Active Directory (Azure AD)** can be seen in organizations using Azure AD as the central identity provider for managing user authentication across multiple applications and platforms.
 
 **Scenario: Seamless Single Sign-On (SSO) for Enterprise Applications**
+
 **Context:**
 A company with 1,000 employees uses multiple applications, such as Microsoft 365, Salesforce, and ServiceNow. Instead of maintaining separate login credentials for each application, the IT team integrates these apps with Azure AD to provide a unified sign-in experience.
 
-**Real-Time Integration in Action:**
+**Real-Time Integration in Action:** <br>
   **1.Single Sign-On (SSO):**
     * **Real-Time Application:**
       * An employee, Jane, logs into her workstation using her Azure AD credentials.
