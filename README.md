@@ -356,5 +356,5 @@ Integrating Azure AD simplifies identity management and access control.
       Assign users to applications or groups in Azure Active Directory.
       Set conditional access and MFA policies for these applications.
 
-**Conclusion**
-This project demonstrates a comprehensive understanding of Azure IAM concepts and their application in real-world scenarios. The implementation of RBAC, conditional access, identity protection, PIM, and Azure AD integration highlights the ability to design and manage secure, efficient cloud environments.
+**Conclusion:** This project demonstrates a comprehensive understanding of Azure IAM concepts and their application in real-world scenarios. The implementation of RBAC, conditional access, 
+                identity protection, PIM, and Azure AD integration highlights the ability to design and manage secure, efficient cloud environments.
